@@ -14,7 +14,7 @@
 <h2> Rodando a aplicação através do docker</h2>
 
 - construindo a imagem
->sudo docker build --tag <tagName>:1.0 .    
+>sudo docker build --tag tagName:1.0 .    
 
 - rodando o container
->sudo docker run --publish <port>:3000 --detach --name <containerName> tagName:1.0
+>sudo docker run --publish port:3000 --detach --name containerName tagName:1.0
