@@ -23,7 +23,7 @@
 <p> O projeto é um servidor backend feito com nodejs que fornece uma api que recebe até 3 ingredientes e retorna um receitas,provenientes do RecipePuppy (http://www.recipepuppy.com/about/api/)
 , juntamente com o Giphy (https://developers.giphy.com/docs/) </p>
 
-<h2>Dependências</h2>
+<h2>Pacotes usados</h2>
 <ul>
   <li>nodejs</li>
   <li>axios</li>
@@ -32,10 +32,22 @@
   <li>dotenv</li>
 </ul>
 
-<h2> Rodando a aplicação através do docker</h2>
+<h2> Rodando a aplicação local </h2>
+<p> A aplicação pode ser rodada através da instalação das dependências ou utilização de um container(docker) para roda-lás.
 
-- construindo a imagem
+<h3>Instalar e rodar as dependências</h3>
+
+>sudo npm install
+>sudo npm start
+ 
+<h3> Utilizando o Docker</h3>
+- construi a imagem
+
 >sudo docker build --tag tagName:1.0 .    
 
-- rodando o container
+- rodar o container
+
 >sudo docker run --publish port:3000 --detach --name containerName tagName:1.0
+<h2> Exemplos de requisição</h2>
+
+
