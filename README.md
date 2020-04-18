@@ -38,6 +38,7 @@
 <h3>Instalar e rodar as dependências</h3>
 
 >sudo npm install
+
 >sudo npm start
  
 <h3> Utilizando o Docker</h3>
